@@ -1,0 +1,27 @@
+{
+  "name": "ethereum-block-explorer-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon ."
+  },
+  "keywords": [
+    "ethereum",
+    "alchemy-sdk",
+    "node",
+    "express"
+  ],
+  "author": "Edy Ionescu <errorsmith@gmail.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@dotenvx/dotenvx": "^1.23.0",
+    "alchemy-sdk": "^3.4.8",
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "nodemon": "^3.1.7"
+  }
+}
