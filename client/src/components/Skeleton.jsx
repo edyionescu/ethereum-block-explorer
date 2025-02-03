@@ -136,7 +136,7 @@ function SkeletonBlock() {
 
 function SkeletonTransactionsList() {
   return (
-    <div className="overflow-hidden rounded-lg bg-white shadow relative mt-5 mb-20">
+    <div className="overflow-hidden rounded-lg bg-white shadow-sm relative mt-5 mb-20">
       <div className="px-4 sm:px-6 lg:px-8">
         <div className="mt-4 flow-root">
           <div className="-mx-4 -my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
@@ -341,7 +341,7 @@ function SkeletonLatestBlocks() {
         <tr key={idx} role="status" className="animate-pulse">
           <td className="whitespace-nowrap py-5 pl-4 pr-3 text-sm sm:pl-0">
             <div className="flex items-center">
-              <div className="h-11 w-11 flex-shrink-0">
+              <div className="h-11 w-11 shrink-0">
                 <CubeIcon aria-hidden="true" className="text-gray-400 h-11 w-11 bg-gray-50 p-2 rounded-lg" />
               </div>
               <div className="ml-3">
@@ -367,7 +367,7 @@ function SkeletonLatestTransactions() {
         <tr key={idx} role="status" className="animate-pulse">
           <td className="whitespace-nowrap py-5 pl-4 pr-2 text-sm sm:pl-0">
             <div className="flex items-center">
-              <div className="h-11 w-11 flex-shrink-0">
+              <div className="h-11 w-11 shrink-0">
                 <ClipboardDocumentListIcon
                   aria-hidden="true"
                   className="text-gray-400 h-11 w-11 bg-gray-50 p-2 rounded-lg"

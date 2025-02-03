@@ -1,6 +1,7 @@
 import { PieChart, Pie, Cell } from 'recharts';
-import { green, red, gray } from 'tailwindcss/colors';
 import { renderPercentage } from '../../lib';
+import colors from 'tailwindcss/colors';
+const { green, red, gray } = colors;
 
 function GasTarget({ gasUsedFromTarget, gasUsedExceededTarget }) {
   const cssClass = gasUsedExceededTarget ? 'text-green-600' : 'text-red-600';

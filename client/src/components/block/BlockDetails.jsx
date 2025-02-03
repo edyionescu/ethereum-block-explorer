@@ -16,7 +16,7 @@ function BlockDetails({ number, data, isLoading, isSuccess, isError, error }) {
 
   return (
     <>
-      <div className="overflow-hidden bg-white shadow sm:rounded-lg">
+      <div className="overflow-hidden bg-white shadow-sm sm:rounded-lg">
         <div className="px-4 py-6 sm:px-6">
           <h2 className="text-lg font-semibold leading-7 text-gray-900 bg-gray-50 inline-block rounded-lg px-3 py-1 -ml-3">
             Block <span className="text-base text-gray-600 font-normal ml-0.5">#{number}</span>
@@ -173,7 +173,7 @@ function BlockDetails({ number, data, isLoading, isSuccess, isError, error }) {
       ) : (
         isSuccess &&
         transactions.length > 0 && (
-          <div className="overflow-hidden rounded-lg bg-white shadow relative mt-5 mb-20">
+          <div className="overflow-hidden rounded-lg bg-white shadow-sm relative mt-5 mb-20">
             <div className="px-4 sm:px-6 lg:px-8">
               <div className="mt-4 flow-root">
                 <div className="-mx-4 -my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">

@@ -14,7 +14,7 @@ import Error from '../Error';
 
 function TransactionDetails({ transaction, isLoading, isSuccess, isError, error }) {
   return (
-    <div className="overflow-hidden bg-white shadow sm:rounded-lg">
+    <div className="overflow-hidden bg-white shadow-sm sm:rounded-lg">
       <div className="px-4 py-6 sm:px-6">
         <h2 className="text-lg font-semibold leading-7 text-gray-900 bg-gray-50 inline-block rounded-lg px-3 py-1 -ml-3">
           Transaction Details

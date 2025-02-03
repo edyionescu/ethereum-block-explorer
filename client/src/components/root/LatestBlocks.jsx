@@ -5,7 +5,7 @@ import { renderHash, renderDuration } from '../../lib';
 
 function LatestBlocks({ data, isLoading, countDown, unixTime }) {
   return (
-    <div className="overflow-hidden rounded-lg bg-white shadow relative">
+    <div className="overflow-hidden rounded-lg bg-white shadow-sm relative">
       <div className="px-4 py-5 sm:p-6">
         <div className="-mx-4 -my-2  sm:-mx-6 lg:-mx-8">
           <div className="inline-block min-w-full align-middle sm:px-6 lg:px-8">
@@ -41,7 +41,7 @@ function LatestBlocks({ data, isLoading, countDown, unixTime }) {
                     <tr key={number}>
                       <td className="whitespace-nowrap py-5 pl-4 pr-3 text-sm sm:pl-0">
                         <div className="flex items-center">
-                          <div className="h-11 w-11 flex-shrink-0">
+                          <div className="h-11 w-11 shrink-0">
                             <CubeIcon
                               aria-hidden="true"
                               className="text-gray-400 h-11 w-11 bg-gray-50 p-2 rounded-lg"
