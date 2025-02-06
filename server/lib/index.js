@@ -82,7 +82,9 @@ async function getBlockDetails(blockNumber) {
   const gasUsed = gasUsedBigNumber.toString();
   // Each block has a target size of 15 million gas
   // https://ethereum.org/en/developers/docs/gas/#block-size
-  const gasTarget = 15000000;
+  // However, the gas limit has recently increased and varies,
+  // so we will set the gas target to be half of the gas limit.
+  const gasTarget = gasLimit / 2;
   const gasUsedExceededTarget = gasUsed > gasTarget;
   const gasUsedFromTarget = Math.abs(1 - gasUsed / gasTarget);
 
