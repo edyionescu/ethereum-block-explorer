@@ -1,5 +1,8 @@
 # Ethereum Block Explorer
 
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/edyionescu/ethereum-block-explorer)
+![GitHub License](https://img.shields.io/github/license/edyionescu/ethereum-block-explorer)
+
 Explore the latest blocks and transactions, as well as their details on the Ethereum blockchain, using the [Alchemy SDK](https://docs.alchemy.com/reference/alchemy-sdk-quickstart).
 
 <img src="assets/ethereum_block_explorer_latest.gif" alt="demo"/>
