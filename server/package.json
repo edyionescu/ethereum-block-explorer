@@ -21,7 +21,7 @@
     "@dotenvx/dotenvx": "^1.51.1",
     "alchemy-sdk": "^3.6.5",
     "cors": "^2.8.5",
-    "express": "^5.1.0",
+    "express": "^5.2.1",
     "nodemon": "^3.1.11"
   }
 }
