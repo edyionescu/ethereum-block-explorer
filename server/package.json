@@ -18,10 +18,10 @@
     "node": ">=20.0.0"
   },
   "dependencies": {
-    "@dotenvx/dotenvx": "^1.51.4",
+    "@dotenvx/dotenvx": "^1.52.0",
     "alchemy-sdk": "^3.6.5",
-    "cors": "^2.8.5",
+    "cors": "^2.8.6",
     "express": "^5.2.1",
-    "nodemon": "^3.1.11"
+    "nodemon": "^3.1.14"
   }
 }

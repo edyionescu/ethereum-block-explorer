@@ -23,27 +23,27 @@
   },
   "dependencies": {
     "@heroicons/react": "^2.2.0",
-    "@tanstack/react-query": "^5.90.19",
+    "@tanstack/react-query": "^5.90.21",
     "date-fns": "^4.1.0",
-    "react": "^19.2.3",
-    "react-dom": "^19.2.3",
-    "react-error-boundary": "^6.1.0",
-    "react-router-dom": "^7.12.0",
-    "recharts": "^3.6.0"
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "react-error-boundary": "^6.1.1",
+    "react-router-dom": "^7.13.0",
+    "recharts": "^3.7.0"
   },
   "devDependencies": {
-    "@eslint/js": "^9.39.2",
-    "@tailwindcss/postcss": "^4.1.18",
-    "@types/react": "^19.2.8",
+    "@eslint/js": "^9.39.3",
+    "@tailwindcss/postcss": "^4.2.1",
+    "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
-    "@vitejs/plugin-react": "^5.1.2",
-    "eslint": "^9.39.2",
+    "@vitejs/plugin-react": "^5.1.4",
+    "eslint": "^9.39.3",
     "eslint-plugin-react": "^7.37.5",
     "eslint-plugin-react-hooks": "^7.0.1",
-    "eslint-plugin-react-refresh": "^0.4.26",
-    "globals": "^17.0.0",
+    "eslint-plugin-react-refresh": "^0.5.1",
+    "globals": "^17.3.0",
     "postcss": "^8.5.6",
-    "tailwindcss": "^4.1.18",
+    "tailwindcss": "^4.2.1",
     "vite": "^7.3.1"
   }
 }
